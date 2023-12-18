@@ -1,0 +1,38 @@
+.testimonials__card .card__title {
+  color: var(--dark-green);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.testimonials__rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.testimonials__text {
+  color: var(--dark-green);
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+.customer__info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.customer__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.customer__name {
+  font-size: 14px;
+  color: var(--dark-green);
+  font-weight: 600;
+}

@@ -1,0 +1,25 @@
+.testimonials .section__title {
+  font-family: "Markazi Text", serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.testimonials .section__subtitle {
+  margin-bottom: 50px;
+  max-width: 320px;
+  color: var(--dark-green);
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .testimonials__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

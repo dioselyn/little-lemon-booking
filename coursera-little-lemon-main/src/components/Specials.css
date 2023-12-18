@@ -1,0 +1,30 @@
+.section-specials {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.section__header {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__header h2 {
+  font-family: "Markazi Text", serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+@media (min-width: 530px) {
+  .section-specials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  .section-specials {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

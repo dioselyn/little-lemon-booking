@@ -1,0 +1,7 @@
+[
+  { "text": "Home", "href": "/" },
+  { "text": "Book", "href": "/booking" },
+  { "text": "About", "href": "/about" },
+  { "text": "Contact", "href": "/contact" },
+  { "text": "Our Menu", "href": "/menu" }
+]

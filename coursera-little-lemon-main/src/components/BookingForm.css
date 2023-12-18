@@ -1,0 +1,27 @@
+.booking {
+  padding-top: 50px;
+}
+
+.booking__form {
+  display: grid;
+  max-width: 200px;
+  gap: 25px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.booking h2 {
+  font-family: "Markazi Text", serif;
+  font-weight: normal;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.booking form {
+  margin: auto;
+}
+
+form p {
+  font-size: 14px;
+  color: red;
+}
